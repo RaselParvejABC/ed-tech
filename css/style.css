@@ -5,6 +5,37 @@
 /* Poppins Regular and SemiBold */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+/*-------------------------------------------------
+ General Styles
+ --------------------------------------------------*/
+
 body {
   font-family: "Poppins", sans-serif;
+}
+
+/*-------------------------------------------------
+ Header Section
+ --------------------------------------------------*/
+
+.my-brightness-filter {
+  filter: brightness(25%);
+}
+
+@media screen and (max-width: 768px) {
+  #header-carousel {
+    height: 300px;
+  }
+  #header-carousel #header-carousel-inner,
+  #header-carousel #header-carousel-inner .header-carousel-item {
+    height: 100%;
+  }
+  #header-carousel img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  #caption-over-carousel {
+    width: 80%;
+  }
 }
