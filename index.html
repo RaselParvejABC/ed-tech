@@ -290,5 +290,81 @@
       </button>
     </section>
     <!-- Discover Popular Courses Section End -->
+
+    <!-- Explore SkillYard Section Start -->
+    <!-- Explore SkillYard Section End -->
+
+    <!-- Ready to Join Section Start -->
+    <section
+      id="ready-to-join-section"
+      class="bg-primary text-white container p-5 rounded"
+    >
+      <div class="row row-cols-1 row-cols-lg-2 align-items-center m-3 p-0">
+        <div class="col text-center text-lg-start">
+          <h1>Ready to Join?</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="col text-center m-0 mt-3 m-lg-0">
+          <button
+            type="button"
+            class="btn btn-light text-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#ready-to-join-modal"
+          >
+            Register Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Ready to Join Section End -->
+
+    <br /><br /><br /><br /><br />
+
+    <!-- Ready to Join Modal -->
+    <div
+      class="modal fade"
+      id="ready-to-join-modal"
+      tabindex="-1"
+      aria-labelledby="ready-to-join-modal-label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ready-to-join-modal-label">
+              Register Now
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="text-center">
+              <div class="mb-3 text-start">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text text-start">
+                  We will send a Sign Up Link to Your Email Address.
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Proceed</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
