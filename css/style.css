@@ -5,6 +5,9 @@
 /* Poppins Regular and SemiBold */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+/* Hind Shiliguri Bangla Font */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+
 /*-------------------------------------------------
  General Styles
  --------------------------------------------------*/
@@ -38,4 +41,17 @@ body {
   #caption-over-carousel {
     width: 80%;
   }
+}
+
+/*-------------------------------------------------
+ Frequently Asked Questions Section
+ --------------------------------------------------*/
+
+.text-bangla {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.text-english {
+  font-family: "Poppins", sans-serif;
+  
 }
