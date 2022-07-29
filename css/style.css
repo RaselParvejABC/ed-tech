@@ -26,7 +26,7 @@ body {
 
 @media screen and (max-width: 768px) {
   #header-carousel {
-    height: 300px;
+    height: 500px;
   }
   #header-carousel #header-carousel-inner,
   #header-carousel #header-carousel-inner .header-carousel-item {
@@ -39,7 +39,7 @@ body {
   }
 
   #caption-over-carousel {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -53,5 +53,4 @@ body {
 
 .text-english {
   font-family: "Poppins", sans-serif;
-  
 }
